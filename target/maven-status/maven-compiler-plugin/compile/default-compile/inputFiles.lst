@@ -1,6 +1,6 @@
 /Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/MidTest01Application.java
-/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/controller/SchoolController.java
-/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/controller/StringController.java
-/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/model/Classroom.java
-/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/model/School.java
-/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/service/SchoolService.java
+/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/midtest1/controller/SchoolController.java
+/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/midtest1/model/Classroom.java
+/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/midtest1/model/School.java
+/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/midtest1/service/SchoolService.java
+/Users/khutran/Projects/hoc tap/Java/MidTest01/src/main/java/com/example/midtest01/midtest2/controller/StringController.java

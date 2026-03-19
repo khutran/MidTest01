@@ -55,6 +55,9 @@ A Spring Boot REST API for managing Schools and Classrooms, including filtering 
 
 ## Project Structure
 
-- `com.example.midtest01.model`: Domain classes (`School`, `Classroom`).
-- `com.example.midtest01.service`: Business logic and sample data.
-- `com.example.midtest01.controller`: REST API endpoints.
+- `com.example.midtest01.midtest1`: Midtest 1 implementation.
+  - `model`: `School`, `Classroom`.
+  - `service`: `SchoolService`.
+  - `controller`: `SchoolController`.
+- `com.example.midtest01.midtest2`: Midtest 2 implementation.
+  - `controller`: `StringController`.

@@ -1,8 +1,8 @@
-package com.example.midtest01.controller;
+package com.example.midtest01.midtest1.controller;
 
-import com.example.midtest01.model.Classroom;
-import com.example.midtest01.model.School;
-import com.example.midtest01.service.SchoolService;
+import com.example.midtest01.midtest1.model.Classroom;
+import com.example.midtest01.midtest1.model.School;
+import com.example.midtest01.midtest1.service.SchoolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

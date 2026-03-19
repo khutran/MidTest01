@@ -1,7 +1,7 @@
-package com.example.midtest01.service;
+package com.example.midtest01.midtest1.service;
 
-import com.example.midtest01.model.Classroom;
-import com.example.midtest01.model.School;
+import com.example.midtest01.midtest1.model.Classroom;
+import com.example.midtest01.midtest1.model.School;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
