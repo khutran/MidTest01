@@ -9,6 +9,7 @@ A Spring Boot REST API for managing Schools and Classrooms, including filtering 
 - **Get All Classrooms**: Retrieve a flattened list of all classrooms across all schools.
 - **Filter Classrooms**: Get classrooms with a student count greater than a specified number.
 - **Filter Schools**: Get schools with a total student count (sum of all classrooms) greater than a specified number.
+- **String Manipulation**: Reverse strings, check palindromes, remove duplicate characters, and concatenated trimmed strings.
 
 ## Getting Started
 
@@ -28,17 +29,29 @@ A Spring Boot REST API for managing Schools and Classrooms, including filtering 
 
 ## API Endpoints
 
+### School & Classroom API
+
 | Method | Endpoint | Description | Query Params |
 | :--- | :--- | :--- | :--- |
 | `GET` | `/schools` | Get all schools | `noNumber` (filter by total students) |
 | `GET` | `/schools/{id}` | Get school by ID | |
 | `GET` | `/classrooms` | Get all classrooms | `noNumber` (filter by students) |
 
+### String API
+
+| Method | Endpoint | Description | Query Params |
+| :--- | :--- | :--- | :--- |
+| `GET` | `/string/reverse` | Reverse a string | `input` |
+| `GET` | `/string/palindrome` | Check if palindrome | `input` |
+| `GET` | `/string/unique` | Remove duplicate chars | `input` |
+| `GET` | `/string/concat` | Concat trimmed strings | `s1`, `s2` |
+
 ### Examples
 
-- **Get all schools**: `curl http://localhost:8081/schools`
-- **Filter classrooms with > 30 students**: `curl "http://localhost:8081/classrooms?noNumber=30"`
-- **Filter schools with total > 100 students**: `curl "http://localhost:8081/schools?noNumber=100"`
+- **Reverse string**: `curl "http://localhost:8081/string/reverse?input=ABC"`
+- **Check palindrome**: `curl "http://localhost:8081/string/palindrome?input=aba"`
+- **Remove duplicates**: `curl "http://localhost:8081/string/unique?input=bananas"`
+- **Concat and trim**: `curl "http://localhost:8081/string/concat?s1=Welcome&s2=home"`
 
 ## Project Structure
 
